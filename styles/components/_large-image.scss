@@ -1,0 +1,12 @@
+.image-large {
+    width: 100%;
+    &__text {
+        margin-top: 4%;
+        margin-bottom: 4%;
+        min-height: 93px;
+        font-size: 16px;
+        line-height: 26px;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}

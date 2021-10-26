@@ -1,0 +1,27 @@
+@import 'contact-heading';
+@import 'button';
+
+.contact__form {
+    max-width: 475px;
+    width: 100%;
+}
+
+.input {
+    width: 100%;
+    min-height: 37px;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.6;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    margin-bottom: 3%;
+    border: none;
+    border-bottom: 1px solid #979797;
+    &:hover, &:active {
+        font-size: 16px;
+        font-weight: 700;
+        opacity: 0.8;
+        border-bottom: 1px solid #111;
+    }
+}

@@ -1,0 +1,6 @@
+@use '/styles/colors';
+
+body {
+    background-color: 'colors.$background-color';
+    height: 100vh;
+}

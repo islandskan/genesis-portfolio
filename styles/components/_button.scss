@@ -1,0 +1,17 @@
+@use 'base/base-styling';
+
+
+.btn {
+    background-color: $accent;
+    color: $background;
+    max-width: 125px;
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 5%;
+    &:hover, &:active {
+        cursor: pointer;
+    }
+}

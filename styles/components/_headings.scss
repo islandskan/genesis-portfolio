@@ -1,0 +1,17 @@
+@use 'base/base-style';
+@mixin heading {
+    font-size: 40px;
+    color: $font-color;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.heading {
+ @include heading;
+}
+
+
+//heading styles for project and contact page
+.heading-small {
+    max-width: 495px;
+}

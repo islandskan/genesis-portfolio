@@ -1,0 +1,23 @@
+@import 'components/navbar';
+
+.footer {
+    min-height: 184px;
+    display: flex;
+    align-items: center;
+    // position: absolute;
+    // bottom: 0;
+}
+
+.social {
+    max-width: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &__icon {
+        cursor: pointer;
+        &--style {
+            color: $font-color;
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@import 'base/base-style';
+.menu {
+    min-height: 23px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__li {
+        display: inline;
+    }
+    &__link {
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: -0.35px;
+        text-decoration: none;
+        color: $font-color;
+        transition: 0.2s;
+        &:link, &:visited {
+            color: $font-color;
+        }
+        &:hover, &:active {
+            color: $accent;
+            text-decoration: underline $accent;
+
+        }
+    }
+}
+
+li:first-of-type {
+    margin-right: 29px;
+}

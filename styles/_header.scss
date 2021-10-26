@@ -1,0 +1,22 @@
+@import 'mixin';
+
+.header {
+    min-height: 180px;
+    border: 1px solid black;
+}
+.logo {
+    @include nav;
+}
+
+.menu {
+    @include menu;
+    // &__list {
+    //     @include menu-list;
+    // }
+    // &__li {
+    //     @include menu-li;
+    // }
+    // &__link {
+    //     @include menu-link;
+    // }
+}
